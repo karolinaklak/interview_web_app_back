@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using api_interview.Data;
-using api_interview.Models;
+//using api_interview.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace api_interview.DataSeeding
@@ -10,12 +10,10 @@ namespace api_interview.DataSeeding
 
     public static class QuizSeeder
     {
-        private readonly ApplicationDbContext _context;
+        private static readonly ApplicationDbContext? _context;
 
         public static async Task Seed(ApplicationDbContext context)
         {
-            _context = context;
-
             if (!context.Quizzes.Any())
             {
                 context.Quizzes.AddRange(

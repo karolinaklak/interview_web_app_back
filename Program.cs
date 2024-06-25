@@ -46,12 +46,14 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using api_interview.Data;
+using api_interview.DataSeeding;
 
 namespace api_interview
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\api_interview\\api_interview.csproj": {}
+    "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\interview_web_app_back\\api_interview.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\api_interview\\api_interview.csproj": {
+    "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\interview_web_app_back\\api_interview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\api_interview\\api_interview.csproj",
+        "projectUniqueName": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\interview_web_app_back\\api_interview.csproj",
         "projectName": "api_interview",
-        "projectPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\api_interview\\api_interview.csproj",
+        "projectPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\interview_web_app_back\\api_interview.csproj",
         "packagesPath": "C:\\Users\\kklak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\api_interview\\obj\\",
+        "outputPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\interview_web_app_back\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
