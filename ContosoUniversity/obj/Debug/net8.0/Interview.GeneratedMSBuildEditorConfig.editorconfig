@@ -17,59 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Interview
 build_property.RootNamespace = Interview
-build_property.ProjectDir = C:\Users\kklak\OneDrive\Documents\Projects\WIP\back_interview\TestBack\ContosoUniversity\
+build_property.ProjectDir = C:\Users\kklak\OneDrive\Documents\Projects\interview_web_app_back\ContosoUniversity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kklak\OneDrive\Documents\Projects\WIP\back_interview\TestBack\ContosoUniversity
+build_property.MSBuildProjectDirectory = C:\Users\kklak\OneDrive\Documents\Projects\interview_web_app_back\ContosoUniversity
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Home/Index.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Home/Privacy.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Shared/Error.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Questions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Questions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Questions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Questions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Questions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Users/Create.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Users/Delete.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Users/Details.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Users/Edit.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Users/Index.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/_ViewImports.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/_ViewStart.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kklak/OneDrive/Documents/Projects/WIP/back_interview/TestBack/ContosoUniversity/Views/Shared/_Layout.cshtml]
+[C:/Users/kklak/OneDrive/Documents/Projects/interview_web_app_back/ContosoUniversity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-su4dbhmu71

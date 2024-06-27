@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\TestBack\\ContosoUniversity.Core\\Interview.Core.csproj",
+      "projectUniqueName": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\interview_web_app_back\\ContosoUniversity.Core\\Interview.Core.csproj",
       "projectName": "Interview.Core",
-      "projectPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\TestBack\\ContosoUniversity.Core\\Interview.Core.csproj",
+      "projectPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\interview_web_app_back\\ContosoUniversity.Core\\Interview.Core.csproj",
       "packagesPath": "C:\\Users\\kklak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\TestBack\\ContosoUniversity.Core\\obj\\",
+      "outputPath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\interview_web_app_back\\ContosoUniversity.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

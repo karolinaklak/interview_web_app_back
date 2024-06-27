@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMGb1NjZdmw=",
+  "dgSpecHash": "2CBEOjmaTRo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\WIP\\back_interview\\TestBack\\ContosoUniversity\\Interview.csproj",
+  "projectFilePath": "C:\\Users\\kklak\\OneDrive\\Documents\\Projects\\interview_web_app_back\\ContosoUniversity\\Interview.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kklak\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kklak\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
