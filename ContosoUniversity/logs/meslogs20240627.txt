@@ -829,3 +829,80 @@ FROM [Questions] AS [q]
 2024-06-27 12:06:33.466 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
 2024-06-27 12:06:33.483 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 22.3748ms
 2024-06-27 12:06:33.513 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0531ms
+2024-06-27 12:30:06.468 +02:00 [INF] User profile is available. Using 'C:\Users\kklak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 12:30:06.644 +02:00 [INF] Now listening on: https://localhost:7262
+2024-06-27 12:30:06.644 +02:00 [INF] Now listening on: http://localhost:5032
+2024-06-27 12:30:06.645 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-27 12:30:06.645 +02:00 [INF] Hosting environment: Development
+2024-06-27 12:30:06.645 +02:00 [INF] Content root path: C:\Users\kklak\OneDrive\Documents\Projects\interview_web_app_back\ContosoUniversity
+2024-06-27 12:30:07.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/ - null null
+2024-06-27 12:30:07.415 +02:00 [INF] Executing endpoint 'Interview.Controllers.HomeController.Index (Interview)'
+2024-06-27 12:30:07.440 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Interview.Controllers.HomeController (Interview).
+2024-06-27 12:30:07.442 +02:00 [INF] Home/Index
+2024-06-27 12:30:07.447 +02:00 [INF] Executing ViewResult, running view Index.
+2024-06-27 12:30:07.513 +02:00 [INF] Executed ViewResult - view Index executed in 67.5364ms.
+2024-06-27 12:30:07.514 +02:00 [INF] Executed action Interview.Controllers.HomeController.Index (Interview) in 72.5795ms
+2024-06-27 12:30:07.514 +02:00 [INF] Executed endpoint 'Interview.Controllers.HomeController.Index (Interview)'
+2024-06-27 12:30:07.517 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/ - 200 null text/html; charset=utf-8 203.3899ms
+2024-06-27 12:30:07.549 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:30:07.561 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 11.8904ms
+2024-06-27 12:30:07.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-06-27 12:30:07.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.2077ms
+2024-06-27 12:30:14.457 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/Users - null null
+2024-06-27 12:30:14.466 +02:00 [INF] Executing endpoint 'Interview.Controllers.UsersController.Index (Interview)'
+2024-06-27 12:30:14.478 +02:00 [INF] Route matched with {action = "Index", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Interview.Controllers.UsersController (Interview).
+2024-06-27 12:30:18.700 +02:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Role]
+FROM [Users] AS [u]
+2024-06-27 12:30:18.790 +02:00 [INF] Executing ViewResult, running view Index.
+2024-06-27 12:30:18.849 +02:00 [INF] Executed ViewResult - view Index executed in 60.2242ms.
+2024-06-27 12:30:18.852 +02:00 [INF] Executed action Interview.Controllers.UsersController.Index (Interview) in 4373.5279ms
+2024-06-27 12:30:18.853 +02:00 [INF] Executed endpoint 'Interview.Controllers.UsersController.Index (Interview)'
+2024-06-27 12:30:18.863 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/Users - 200 null text/html; charset=utf-8 4406.3106ms
+2024-06-27 12:30:18.876 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-06-27 12:30:18.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:30:18.879 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 1.8223ms
+2024-06-27 12:30:18.903 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.7569ms
+2024-06-27 12:30:20.704 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/Questions - null null
+2024-06-27 12:30:20.714 +02:00 [INF] Executing endpoint 'Interview.Controllers.QuestionsController.Index (Interview)'
+2024-06-27 12:30:20.724 +02:00 [INF] Route matched with {action = "Index", controller = "Questions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Interview.Controllers.QuestionsController (Interview).
+2024-06-27 12:30:20.879 +02:00 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [q].[Id], [q].[IdAdmin], [q].[IdLevel], [q].[IdTechno], [q].[Name]
+FROM [Questions] AS [q]
+2024-06-27 12:30:20.903 +02:00 [INF] Executing ViewResult, running view Index.
+2024-06-27 12:30:20.933 +02:00 [INF] Executed ViewResult - view Index executed in 30.9588ms.
+2024-06-27 12:30:20.937 +02:00 [INF] Executed action Interview.Controllers.QuestionsController.Index (Interview) in 212.6298ms
+2024-06-27 12:30:20.937 +02:00 [INF] Executed endpoint 'Interview.Controllers.QuestionsController.Index (Interview)'
+2024-06-27 12:30:20.937 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/Questions - 200 null text/html; charset=utf-8 234.4081ms
+2024-06-27 12:30:20.966 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-06-27 12:30:20.966 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:30:20.967 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 1.3032ms
+2024-06-27 12:30:20.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.7576ms
+2024-06-27 12:30:21.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/Users - null null
+2024-06-27 12:30:21.976 +02:00 [INF] Executing endpoint 'Interview.Controllers.UsersController.Index (Interview)'
+2024-06-27 12:30:21.976 +02:00 [INF] Route matched with {action = "Index", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Interview.Controllers.UsersController (Interview).
+2024-06-27 12:30:22.075 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Role]
+FROM [Users] AS [u]
+2024-06-27 12:30:22.077 +02:00 [INF] Executing ViewResult, running view Index.
+2024-06-27 12:30:22.093 +02:00 [INF] Executed ViewResult - view Index executed in 15.3101ms.
+2024-06-27 12:30:22.093 +02:00 [INF] Executed action Interview.Controllers.UsersController.Index (Interview) in 116.5694ms
+2024-06-27 12:30:22.093 +02:00 [INF] Executed endpoint 'Interview.Controllers.UsersController.Index (Interview)'
+2024-06-27 12:30:22.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/Users - 200 null text/html; charset=utf-8 121.6052ms
+2024-06-27 12:30:22.128 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-06-27 12:30:22.132 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:30:22.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 2.1112ms
+2024-06-27 12:30:22.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.5412ms
+2024-06-27 12:30:23.016 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/ - null null
+2024-06-27 12:30:23.019 +02:00 [INF] Executing endpoint 'Interview.Controllers.HomeController.Index (Interview)'
+2024-06-27 12:30:23.019 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Interview.Controllers.HomeController (Interview).
+2024-06-27 12:30:23.020 +02:00 [INF] Home/Index
+2024-06-27 12:30:23.020 +02:00 [INF] Executing ViewResult, running view Index.
+2024-06-27 12:30:23.020 +02:00 [INF] Executed ViewResult - view Index executed in 0.6687ms.
+2024-06-27 12:30:23.021 +02:00 [INF] Executed action Interview.Controllers.HomeController.Index (Interview) in 0.971ms
+2024-06-27 12:30:23.021 +02:00 [INF] Executed endpoint 'Interview.Controllers.HomeController.Index (Interview)'
+2024-06-27 12:30:23.021 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/ - 200 null text/html; charset=utf-8 5.6362ms
+2024-06-27 12:30:23.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-06-27 12:30:23.051 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:30:23.055 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 4.1072ms
+2024-06-27 12:30:23.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.0529ms

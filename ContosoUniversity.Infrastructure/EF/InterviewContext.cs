@@ -12,6 +12,11 @@ namespace Interview.EF
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Question> Questions { get; set; }
+        public DbSet<Quiz> Quiz { get; set; }
+
+        public DbSet<Agent> Agents { get; set; }
+
+        public DbSet<Admin> Admins { get; set; }
         //public DbSet<Enrollment> Enrollments { get; set; }
 
         public InterviewContext(DbContextOptions<InterviewContext> options) : base(options)
@@ -34,7 +39,23 @@ namespace Interview.EF
             modelBuilder.Entity<Question>()
                 .Property(b => b.Name)
                 .IsRequired()
+                .HasMaxLength(120);
+
+            modelBuilder.Entity<Quiz>()
+                .Property(b => b.Name)
+                .IsRequired()
                 .HasMaxLength(40);
+
+            modelBuilder.Entity<Agent>()
+                .Property(b => b.IdAdmin)
+                .IsRequired()
+                .HasMaxLength(50);
+
+            modelBuilder.Entity<Admin>()
+                .Property(b => b.IdUser)
+                .IsRequired()
+                .HasMaxLength(32);
+
 
             modelBuilder.Entity<User>().HasData(
                new User
@@ -43,7 +64,7 @@ namespace Interview.EF
                    FirstName = "Carson",
                    LastName = "Alexander",
                    Role = 2,
-                   
+
                },
                 new User
                 {
@@ -51,7 +72,7 @@ namespace Interview.EF
                     FirstName = "Meredith",
                     LastName = "Alonso",
                     Role = 2,
-                    
+
                 },
                 new User
                 {
@@ -59,7 +80,7 @@ namespace Interview.EF
                     FirstName = "Arturo",
                     LastName = "Anand",
                     Role = 1,
-                    
+
                 },
                 new User
                 {
@@ -106,6 +127,46 @@ namespace Interview.EF
                 new Question { Id = 6, Name = "Composition", IdLevel = 'A' },
                 new Question { Id = 7, Name = "Literature", IdLevel = 'C' }
                 );
+
+            modelBuilder.Entity<Quiz>().HasData(
+                new Quiz { Id = 1, Name = "Quiz1", IdAgent = 3, IdCandidat = 99 }
+                );
+
+            modelBuilder.Entity<Agent>().HasData(
+              new Agent
+              {
+                  Id = 1,
+                  FirstName = "John",
+                  LastName = "Doe",
+                  IdAdmin = 1,
+
+              },
+               new Agent
+               {
+                   Id = 2,
+                   FirstName = "Johnny",
+                   LastName = "Donny",
+                   IdAdmin = 1,
+
+               },
+               new Agent
+               {
+                   Id = 3,
+                   FirstName = "Bertrand",
+                   LastName = "McCall",
+                   IdAdmin = 1,
+
+               }
+            );
+
+            modelBuilder.Entity<Admin>().HasData(
+              new Admin
+              {
+                  Id = 1,
+                  IdUser = 3,
+                  Name = "Admin1"
+              });
+
 
             /*
             modelBuilder.Entity<Enrollment>().HasData(

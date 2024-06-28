@@ -21,6 +21,83 @@ namespace Interview.EF.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Interview.Entities.Admin", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IdUser")
+                        .HasMaxLength(32)
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Admins");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IdUser = 3,
+                            Name = "Admin1"
+                        });
+                });
+
+            modelBuilder.Entity("Interview.Entities.Agent", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("IdAdmin")
+                        .HasMaxLength(50)
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Agents");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            FirstName = "John",
+                            IdAdmin = 1,
+                            LastName = "Doe"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            FirstName = "Johnny",
+                            IdAdmin = 1,
+                            LastName = "Donny"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            FirstName = "Bertrand",
+                            IdAdmin = 1,
+                            LastName = "McCall"
+                        });
+                });
+
             modelBuilder.Entity("Interview.Entities.Question", b =>
                 {
                     b.Property<int>("Id")
@@ -40,8 +117,8 @@ namespace Interview.EF.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
 
                     b.HasKey("Id");
 
@@ -103,6 +180,39 @@ namespace Interview.EF.Migrations
                             IdLevel = 67,
                             IdTechno = 0,
                             Name = "Literature"
+                        });
+                });
+
+            modelBuilder.Entity("Interview.Entities.Quiz", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IdAgent")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCandidat")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Quiz");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IdAgent = 3,
+                            IdCandidat = 99,
+                            Name = "Quiz1"
                         });
                 });
 
